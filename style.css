@@ -1,0 +1,26 @@
+
+ 
+.card-header {
+    background-color: rgb(198, 214, 250)
+}
+
+.card {
+    box-shadow: 5px 10px lightgray;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+
+    html,
+    body {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    html,
+    body,
+    .wrapper {
+        height: 100%;
+    }
